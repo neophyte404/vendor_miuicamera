@@ -4,7 +4,7 @@ soong_namespace {
 android_app_import {
 	name: "MiuiCamera",
 	owner: "miuicamera",
-	apk: "proprietary/priv-app/MiuiCamera/MiuiCamera.apk",
+	apk: "proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk",
 	overrides: ["Aperture", "Snap", "Camera", "Camera2", "GoogleCameraGo", "GCamGOPrebuilt"],
 	certificate: "platform",
 	dex_preopt: {
