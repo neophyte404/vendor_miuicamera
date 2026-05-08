@@ -1,3 +1,0 @@
-allow hal_camera unlabeled:file { getattr open read };
-allow hal_camera vendor_default_prop:property_service set;
-allow hal_camera default_prop:file { getattr open read };

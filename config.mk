@@ -31,7 +31,3 @@ PRODUCT_SYSTEM_PROPERTIES += \
     persist.sys.miui.sdk.dbg \
     ro.boot.camera.config=_pro \
     ro.com.google.lens.oem_camera_package=com.android.camera
-
-# Sepolicy
-SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
-    vendor/miuicamera/sepolicy/private
