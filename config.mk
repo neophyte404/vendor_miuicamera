@@ -5,7 +5,7 @@ LOCAL_PATH := vendor/miuicamera
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/system/etc,$(TARGET_COPY_OUT_SYSTEM)/etc) \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/system/priv-app/MiuiCamera/lib,$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCameraCamera/lib) \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/system/priv-app/MiuiCamera/lib,$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib) \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/system/priv-app/MiuiExtraPhoto/lib,$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiExtraPhoto/lib) \
     $(LOCAL_PATH)/proprietary/vendor/etc/camera/sceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sceneDetection.xml
 
