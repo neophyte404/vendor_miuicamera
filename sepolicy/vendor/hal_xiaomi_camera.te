@@ -1,0 +1,1 @@
+type hal_xiaomi_camera_hwservice, vendor_hwservice_type, hwservice_manager_type;
